@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    color: #A5A6AD ;
+    font-family:'Poppins';
+}
+
+.btn{
+    
+    color:#fff;
+    background-image: linear-gradient(90deg,#F38235 ,#e0a538);
+}
+header{
+    background-color: aliceblue;
+    display: flex;
+    padding: 50px 5%;
+    
+}
+.logo{
+    padding: 50px -10px;
+}
+
+.header-btn .btn{
+    float: right;
+    padding: 10px;
+}
+.bold{
+    color: #F38235;
+    font-weight: bold;
+}
+.hero{
+    padding: 0 10%;
+    width:100%;
+    min-height:600px;
+    display:flex;
+}
+h1,h2{
+
+}
+.h1,h1{
+    font-size:3.3rem;
+    color:#2474B2;
+}
+h2{
+    color:#2474B2;
+}
+.hero form{
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px 2px;
+    padding: 30px;
+    color:#A5A6AD ;
+    float:right;
+    width: 75%;
+}
+.hero form input{
+    margin-bottom: 20px;
+    padding:5px;
+    width: 100%;
+    border: 1px solid #2474B2;
+    border-radius:5px;
+}
+.dropdowns{
+    width:100%;
+    display:flex;
+}
+.dropdown-1{
+    width:30%;
+    margin-right: 10px;
+}
+.dropdown-2{
+    width:70%;
+}
+.hero form select{
+    margin-bottom: 20px;
+    padding:10px;
+    width: 100%;
+    border: 1px solid #2474B2;
+    border-radius:5px;
+}
+.hero form button{
+    width: 100%;
+}
+.block{
+    width:50%;
+    margin: 0;
+    padding:0;
+}
+.tags{
+    padding: 0 5%;
+    width:100%;
+    min-height:400px;
+    overflow-x:hidden;
+    background-color:aliceblue;
+}
+.tags span{
+    display: inline-block;
+    
+}
+.tags h2{
+    display: inline-block;
+}
+
+.tag{
+    color:#A5A6AD;
+    background-color:#fff ;
+    padding:10px;
+    margin:5px;
+    border-radius:5px;
+}
+.tag i.fa{
+    color:aliceblue;
+}
+.quiosques{
+    background:url("/assets/img/QUIOSQUE.png") no-repeat  right;
+    background-size:75%;
+    display:flex;
+    padding: 50px 5%;
+    min-height:800px;
+}
+.quiosques p{
+    color:#A5A6AD;
+    font-size:1.3rem;
+}
+.quiosques img{
+    float: right;
+    width: 100%;
+    z-index:-1
+}
+.quiosques ul li{
+    list-style-type:none;
+    margin:20px 0;
+    color:#555;
+    font-weight:bold;
+}
+.quiosques ul li::before{
+    content:url('/assets/img/bullet.png'); 
+}
+.loja ul li::before{
+    content:url('/assets/img/bullet.png'); 
+}
+.loja{
+    background:url("/assets/img/LOJA.png") no-repeat  left;
+    background-size:55%;
+    padding: 0 5%;
+    min-height:800px;
+}
+.itens-loja{
+    float:right;
+}
+
+.loja ul li{
+    list-style-type:none;
+    margin:20px 0;
+    color:#555;
+    font-weight:bold;
+}
+
+.feedback{
+    min-height:600px;
+    background-image: linear-gradient(90deg,#F38235 ,#e0a538);
+    padding: 50px 5%;
+}
+.feedback h2{
+    color:#fff;
+    font-weight:bold;
+    padding: 50px 0;
+}
+.feedback span{
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+
+}
+.spans{
+    background-image: linear-gradient(#F38235 ,#e0a538);
+    padding: 10px 0;
+    border-radius: 50px;
+    display: inline;
+}
+.feedback  #um{
+    background-color: #fff;
+    color: #2474B2;
+    z-index: 2;
+    font-weight:bold;
+}
+.feedback #dois{
+    color: #fff;
+    
+}
+.cards{
+    margin: 50px 0; 
+    display: flex;
+}
+.card{
+    border-radius: 5%;
+    width: 400px;
+    border:5px solid #fff;
+    background-color: aliceblue;
+    margin-right: 40px;
+    padding: 20px;
+}
+.card h4{
+    font-weight: bold;
+}
+.card h5,.card h4{
+    color: #2474B2;
+    font-size: 1rem;
+    //width: 100px;
+}
+.userdiv{
+    width: 100%;
+    display: inline;
+}
+.userdiv *{
+    margin:0;
+}
+.username{
+    width: 70%;
+}
+.user{
+    max-width: 65px;
+    border:2px solid #F38235;
+    border-radius: 50%;
+    width: 20%;
+}
+.quote{
+    max-width: 30px;
+}
+
+
+.btn-apresentacao{
+    color: #fff;
+    background-color: #2474B2 !important;
+    border:none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+}
